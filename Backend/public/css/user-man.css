@@ -1,0 +1,333 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 100px ;
+  width: 180%;
+}
+.div-2 {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 20px;
+}
+.img {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 35px;
+  border-radius: 4px;
+}
+.div-3 {
+  color: #b3b3b3;
+  font-family: Noto Sans, sans-serif;
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: auto 0;
+}
+.div-4 {
+  color: #ff0202;
+  font-family: Noto Sans, sans-serif;
+  margin: auto 0;
+}
+.div-5 {
+  border-color: rgba(179, 179, 179, 1);
+  border-style: solid;
+  border-width: 2px;
+  width: 142px;
+  height: 2px;
+  margin: 5px 0 0 62px;
+}
+@media (max-width: 991px) {
+  .div-5 {
+    margin-left: 10px;
+  }
+}
+.div-6 {
+  border-radius: 8px;
+  background-color: #fff;
+  align-self: stretch;
+  display: flex;
+  margin-top: 31px;
+  width: 100%;
+  flex-direction: column;
+  padding: 70px 80px 0;
+}
+@media (max-width: 991px) {
+  .div-6 {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+.div-7 {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  .div-7 {
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding-right: 20px;
+  }
+}
+.div-8 {
+  align-self: start;
+  display: flex;
+  gap: 20px;
+  white-space: nowrap;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  .div-8 {
+    white-space: initial;
+  }
+}
+.img-2 {
+  aspect-ratio: 1.02;
+  object-fit: auto;
+  object-position: center;
+  width: 169px;
+  border-color: rgba(65, 138, 126, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 50%;
+  max-width: 100%;
+}
+.div-9 {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
+  .div-9 {
+    white-space: initial;
+  }
+}
+.div-10 {
+  color: #000;
+  font: 600 24px Noto Sans, sans-serif;
+}
+.div-11 {
+  color: #b3b3b3;
+  margin-top: 32px;
+  font: 400 20px Noto Sans, sans-serif;
+}
+.div-12 {
+  border-radius: 8px;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.08);
+  border-color: rgba(65, 138, 126, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #ff0101;
+  align-self: end;
+  margin-top: 136px;
+  color: #fff;
+  justify-content: center;
+  padding: 14px 25px;
+  font: 600 18px Noto Sans, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-12 {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+}
+.div-13 {
+  border-radius: 8px;
+  box-shadow: 0px 3px 50px 0px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  margin: 31px 0 -77px;
+  padding: 42px 49px 80px;
+}
+@media (max-width: 991px) {
+  .div-13 {
+    max-width: 100%;
+    margin-bottom: 10px;
+    padding: 0 20px;
+  }
+}
+.div-14 {
+  display: flex;
+  margin-right: 18px;
+  gap: 20px;
+  white-space: nowrap;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  .div-14 {
+    max-width: 100%;
+    margin-right: 10px;
+    flex-wrap: wrap;
+    white-space: initial;
+  }
+}
+.div-15 {
+  color: #828282;
+  margin: auto 0;
+  font: 600 16px Noto Sans, sans-serif;
+}
+.div-16 {
+  border-radius: 8px;
+  background-color: rgba(247, 218, 216, 1);
+  align-items: start;
+  color: #0b0b0b;
+  justify-content: center;
+  padding: 20px 24px;
+  font: 700 20px Noto Sans, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-16 {
+    max-width: 100%;
+    white-space: initial;
+    padding: 0 20px;
+  }
+}
+.div-17 {
+  display: flex;
+  gap: 20px;
+  margin: 41px 18px 0 0;
+}
+@media (max-width: 991px) {
+  .div-17 {
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin: 40px 10px 0 0;
+  }
+}
+.div-18 {
+  color: #828282;
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: auto 0;
+  font: 600 16px Noto Sans, sans-serif;
+}
+.div-19 {
+  border-radius: 8px;
+  background-color: #f7dad8;
+  align-items: start;
+  color: #0a0a0a;
+  white-space: nowrap;
+  justify-content: center;
+  padding: 20px 24px;
+  font: 400 20px Noto Sans, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-19 {
+    max-width: 100%;
+    white-space: initial;
+    padding: 0 20px;
+  }
+}
+.div-20 {
+  display: flex;
+  gap: 20px;
+  white-space: nowrap;
+  justify-content: space-between;
+  margin: 51px 18px 0 0;
+}
+@media (max-width: 991px) {
+  .div-20 {
+    max-width: 100%;
+    flex-wrap: wrap;
+    white-space: initial;
+    margin: 40px 10px 0 0;
+  }
+}
+.div-21 {
+  color: #828282;
+  margin: auto 0;
+  font: 600 16px Noto Sans, sans-serif;
+}
+.div-22 {
+  border-radius: 8px;
+  background-color: #f7dad8;
+  align-items: start;
+  color: #0b0b0b;
+  justify-content: center;
+  padding: 17px 24px;
+  font: 400 20px Noto Sans, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-22 {
+    max-width: 100%;
+    white-space: initial;
+    padding: 0 20px;
+  }
+}
+.div-23 {
+  display: flex;
+  gap: 20px;
+  white-space: nowrap;
+  justify-content: space-between;
+  margin: 50px 18px 0 0;
+}
+@media (max-width: 991px) {
+  .div-23 {
+    max-width: 100%;
+    flex-wrap: wrap;
+    white-space: initial;
+    margin: 40px 10px 0 0;
+  }
+}
+.div-24 {
+  color: #828282;
+  margin: auto 0;
+  font: 600 16px Noto Sans, sans-serif;
+}
+.div-25 {
+  border-radius: 8px;
+  background-color: #f7dad8;
+  align-items: start;
+  color: #060606;
+  justify-content: center;
+  padding: 20px 24px;
+  font: 400 20px Noto Sans, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-25 {
+    max-width: 100%;
+    white-space: initial;
+    padding: 0 20px;
+  }
+}
+.div-26 {
+  display: flex;
+  gap: 20px;
+  margin: 37px 0 10px;
+}
+@media (max-width: 991px) {
+  .div-26 {
+    max-width: 100%;
+    margin-right: 10px;
+    flex-wrap: wrap;
+  }
+}
+.div-27 {
+  color: #828282;
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: auto 0;
+  font: 600 16px Noto Sans, sans-serif;
+}
+.div-28 {
+  border-radius: 8px;
+  background-color: #f7dad8;
+  align-items: start;
+  color: #060606;
+  justify-content: center;
+  padding: 18px 15px;
+  font: 400 20px Noto Sans, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-28 {
+    max-width: 100%;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,250 @@
+.div {
+  display: flex;
+  max-width: 938px;
+  flex-direction: column;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+.div-2 {
+  font-feature-settings: "clig" off, "liga" off;
+  border-radius: 20px;
+  box-shadow: 0px 3px 50px 0px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  align-self: center;
+  color: #000;
+  text-align: center;
+  padding: 20px 17px 6px;
+  font: 700 60px/60% Noto Sans, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-2 {
+    max-width: 100%;
+    font-size: 40px;
+    padding-right: 20px;
+  }
+}
+.div-3 {
+  margin-top: 113px;
+  width: 100%;
+  padding: 0 20px;
+}
+@media (max-width: 991px) {
+  .div-3 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.div-4 {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
+  .div-4 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
+  .column {
+    width: 100%;
+  }
+}
+.div-5 {
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  padding-bottom: 51px;
+  flex-direction: column;
+  align-self: stretch;
+  font-size: 13px;
+  color: #000;
+  font-weight: 700;
+  width: 100%;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
+  .div-5 {
+    margin-top: 40px;
+  }
+}
+.img {
+  aspect-ratio: 2.22;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.div-6 {
+  display: flex;
+  margin-top: 51px;
+  flex-direction: column;
+  padding: 0 9px;
+}
+@media (max-width: 991px) {
+  .div-6 {
+    margin-top: 40px;
+  }
+}
+.div-7 {
+  font: 17px Noto Sans, sans-serif;
+}
+.div-8 {
+  font-family: Noto Sans, sans-serif;
+  font-weight: 500;
+  margin-top: 4px;
+}
+.div-9 {
+  font-family: Noto Sans, sans-serif;
+  justify-content: center;
+  background-color: #0569ff;
+  align-self: center;
+  margin-top: 32px;
+  color: #fff;
+  white-space: nowrap;
+  padding: 9px 12px 19px;
+}
+@media (max-width: 991px) {
+  .div-9 {
+    white-space: initial;
+  }
+}
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-2 {
+    width: 100%;
+  }
+}
+.div-10 {
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  font-size: 13px;
+  color: #000;
+  font-weight: 700;
+  width: 100%;
+  margin: auto 0;
+  padding: 0 6px 55px 0;
+}
+@media (max-width: 991px) {
+  .div-10 {
+    margin-top: 40px;
+  }
+}
+.img-2 {
+  aspect-ratio: 2.44;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.div-11 {
+  font-family: Noto Sans, sans-serif;
+  margin-top: 25px;
+}
+.div-12 {
+  font-family: Noto Sans, sans-serif;
+  font-weight: 500;
+  margin: 28px 17px 0 0;
+}
+@media (max-width: 991px) {
+  .div-12 {
+    margin: 0 10px 0 5px;
+  }
+}
+.div-13 {
+  font-family: Noto Sans, sans-serif;
+  justify-content: center;
+  background-color: #0569ff;
+  align-self: center;
+  margin-top: 62px;
+  color: #fff;
+  white-space: nowrap;
+  padding: 12px 17px;
+}
+@media (max-width: 991px) {
+  .div-13 {
+    margin-top: 40px;
+    white-space: initial;
+  }
+}
+.column-3 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-3 {
+    width: 100%;
+  }
+}
+.div-14 {
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-grow: 1;
+  padding-bottom: 67px;
+  flex-direction: column;
+  font-size: 13px;
+  color: #000;
+  font-weight: 700;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .div-14 {
+    margin-top: 31px;
+  }
+}
+.img-3 {
+  aspect-ratio: 2.7;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.div-15 {
+  font-family: Noto Sans, sans-serif;
+  margin: 14px 0 0 12px;
+}
+@media (max-width: 991px) {
+  .div-15 {
+    margin-left: 10px;
+  }
+}
+.div-16 {
+  font-family: Noto Sans, sans-serif;
+  font-weight: 500;
+  margin-top: 22px;
+}
+.div-17 {
+  font-family: Noto Sans, sans-serif;
+  justify-content: center;
+  background-color: #0569ff;
+  align-self: center;
+  margin-top: 22px;
+  color: #fff;
+  white-space: nowrap;
+  padding: 9px 12px;
+}
+@media (max-width: 991px) {
+  .div-17 {
+    white-space: initial;
+  }
+}

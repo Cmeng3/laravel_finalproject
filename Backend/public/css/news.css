@@ -1,0 +1,232 @@
+
+.div-11 {
+  border-radius: 20px;
+  box-shadow: 0px 3px 50px 0px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  margin-top: 76px;
+  color: #000;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+  padding: 19px 26px;
+  font: 700 60px/60% Noto Sans, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-11 {
+    max-width: 100%;
+    font-size: 40px;
+    padding-right: 20px;
+    margin-top: 40px;
+  }
+}
+.div-12 {
+  margin-top: 71px;
+  width: 100%;
+  max-width: 1239px;
+  margin-left: 300px;
+}
+@media (max-width: 991px) {
+  .div-12 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.div-13 {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
+  .div-13 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
+  .column {
+    width: 100%;
+  }
+}
+.div-14 {
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #fff;
+  display: flex;
+  flex-grow: 1;
+  padding-bottom: 37px;
+  flex-direction: column;
+  font-weight: 600;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .div-14 {
+    margin-top: 40px;
+  }
+}
+.img-4 {
+  aspect-ratio: 1.1;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+}
+.div-15 {
+  color: #000;
+  font: 30px/36px Noto Sans, sans-serif;
+}
+.div-16 {
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-color: rgba(140, 140, 140, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #05f800;
+  align-self: center;
+  margin-top: 77px;
+  color: #fffdfd;
+  text-align: center;
+  justify-content: center;
+  padding: 15px 43px;
+  font: 25px/144% Noto Sans, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-16 {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+}
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-2 {
+    width: 100%;
+  }
+}
+.div-17 {
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #fff;
+  display: flex;
+  flex-grow: 1;
+  padding-bottom: 37px;
+  flex-direction: column;
+  font-weight: 600;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .div-17 {
+    margin-top: 40px;
+  }
+}
+.img-5 {
+  aspect-ratio: 1.1;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+}
+.div-18 {
+  color: #000;
+  font: 30px/36px Noto Sans Gujarati, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-19 {
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-color: rgba(140, 140, 140, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #05f800;
+  align-self: center;
+  margin-top: 35px;
+  color: #fffdfd;
+  text-align: center;
+  justify-content: center;
+  padding: 15px 43px;
+  font: 25px/144% Noto Sans, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-19 {
+    padding: 0 20px;
+  }
+}
+.column-3 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-3 {
+    width: 100%;
+  }
+}
+.div-20 {
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #fff;
+  display: flex;
+  flex-grow: 1;
+  padding-bottom: 37px;
+  flex-direction: column;
+  font-weight: 600;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .div-20 {
+    margin-top: 40px;
+  }
+}
+.img-6 {
+  aspect-ratio: 1.1;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+}
+.div-21 {
+  color: #000;
+  font: 30px/36px Noto Sans Gujarati, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-22 {
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-color: rgba(140, 140, 140, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #05f800;
+  align-self: center;
+  margin-top: 41px;
+  color: #fffdfd;
+  text-align: center;
+  justify-content: center;
+  padding: 15px 43px;
+  font: 25px/144% Noto Sans, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-22 {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+}

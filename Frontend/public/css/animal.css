@@ -1,0 +1,67 @@
+.content {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: grey;
+}
+
+.profile-section {
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.profiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: normal;
+  max-width: 100%;
+  gap: 20px;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .profiles {
+    width: 100%;
+  }
+}
+
+.profile-card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.adopt-button {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .profiles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .profiles {
+    grid-template-columns: 1fr;
+  }
+}

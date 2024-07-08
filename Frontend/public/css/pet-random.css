@@ -1,0 +1,144 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 100px ;
+  justify-content:center ;
+  align-items: center;
+  
+}
+.div-2 {
+  border-color: rgba(227, 35, 35, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 80px;
+  background-color: #fff;
+  align-self: center;
+  text-align: center;
+  width: 407px;
+  color: #3e2c2c;
+  white-space: nowrap;
+  padding: 17px 60px 17px;
+  font: 400 60px Noto Sans, sans-serif;
+  
+}
+.div-3 {
+  display: flex;
+  margin-top: 108px;
+  width: 100%;
+  flex-direction: column;
+  padding: 0 28px 33px 0;
+}
+@media (max-width: 991px) {
+  .div-3 {
+    max-width: 100%;
+    padding-right: 20px;
+    margin-top: 40px;
+  }
+}
+.div-4 {
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 991px) {
+  .div-4 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: normal;
+  width: 100%;
+  max-width: 350px;
+  margin: 10px;
+  cursor: pointer;
+}
+@media (max-width: 991px) {
+  .column {
+    width: 100%;
+  }
+}
+.div-6 {
+  justify-content: center;
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 100%;
+  padding: 24px;
+}
+@media (max-width: 991px) {
+  .div-6 {
+    margin-top: 24px;
+    padding: 0 20px;
+  }
+}
+.div-7 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.div-8 {
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  color: var(--primary-dark-1, #242731);
+  font-weight: 700;
+}
+.div-9 {
+  font-family: DM Sans, sans-serif;
+}
+.img {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  
+  width: 24px;
+}
+
+.div-11 {
+  align-self: center;
+  margin-top: 21px;
+  color: var(--primary-dark-1, #242731);
+  white-space: nowrap;
+  justify-content: center;
+  font: 500 18px DM Sans, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-11 {
+    white-space: initial;
+  }
+}
+
+.div-13 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.div-10 {
+  align-self: stretch;
+  display: flex;
+  padding-bottom: 25px;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.img-4 {
+  aspect-ratio: 2.38;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  margin-top: 16px;
+}
+.div-12 {
+  color: var(--gray-dark-3, #72767c);
+  margin-top: 4px;
+  font: 400 16px DM Sans, sans-serif;
+}
